@@ -1,0 +1,135 @@
+body 
+{
+	background-color:#f2b80d;
+	font-family: "Franklin Gothic Book ",comic;
+}
+
+.banner
+{
+	width: 900px;
+	height: 300px;
+	border: 3px solid ;
+	margin: 0 auto;
+  background-image: url(../img/5.jpg);
+
+
+
+	background-size: 100% 100%;
+
+
+	animation: banner 10s infinite;
+	
+	animation-direction: alternate;
+
+	
+	
+}
+
+
+#contenido
+{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1
+{
+	color: #e44e2d;
+}
+nav ul li 
+{
+	display:inline-block;
+	margin-right: 20px;
+	color: #1d1d1d;
+	cursor: pointer;
+}
+#textoprincipal
+{
+	width: 600px;
+	height: 300px;
+	background-color: #1d1d1d;
+	color:#FFF;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+
+}
+a
+{
+	color: #e44e2d;
+	font-weight: bold;
+}
+
+#miCanvas
+{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	
+	
+}
+<div id="slider">
+      <ul>
+          <li>
+             <a href="" class="menudesplieg">HTML5</a>
+                <div>
+                    <h5>HTML5</h5>
+                       <p>HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso típico de los sitios web                          modernos. Algunos de ellos son técnicamente similares a las etiquetas 
+                       </p>
+                       <p class="desplieg">
+                          <a href="http://es.wikipedia.org/wiki/HTML5">Leer Mas...</a>
+                       </p>
+               </div>
+          </li>
+          <li>
+             <a href="" class="menudesplieg">CSS3</a>
+                <div>
+                   <h5>CSS3</h5>
+                     <p>CSS tiene una sintaxis muy sencilla, que usa unas cuantas palabras claves 
+                     tomadas del inglés para especificar los nombres de sus selectores, propiedades y atributos.
+                     </p>
+                     <p class="desplieg">
+                        <a href="http://es.wikipedia.org/wiki/CSS3#CSS_3">Leer Mas...</a>
+                     </p>
+                </div>
+         </li>
+         <li>
+            <a href="" class="menudesplieg">PHP</a>
+              <div>
+                 <h5>PHP</h5>
+                   <p>PHP es un lenguaje de programación de uso general de script del lado del servidor originalmente diseñado                      para el desarrollo web de contenido dinámico.
+                   </p>
+                   <p class="desplieg">
+                      <a href="http://es.wikipedia.org/wiki/PHP">Leer Mas...</a>
+                   </p>
+               </div>
+         </li>
+         <li>
+            <a href="" class="menudesplieg">MySQL</a>
+               <div>
+                  <h5>MySQL</h5>
+                     <p>MySQL es un sistema de gestión de bases de datos relacional, multihilo y multiusuario 
+                     con más de seis millones de instalaciones.
+                     </p>
+                     <p class="desplieg">
+                        <a href="http://es.wikipedia.org/wiki/Mysql">Leer Mas...</a>
+                     </p>
+              </div>
+        </li>
+         <li>
+            <a href="" class="menudesplieg">JQuery</a>
+                <div>
+                   <h5>JQuery</h5>
+                      <p>Query es una biblioteca de JavaScript, creada inicialmente por John Resig, 
+                         que permite simplificar la manera de interactuar con los documentos HTML
+                      </p>
+                      <p class="desplieg">
+                         <a href="http://es.wikipedia.org/wiki/Jquery">Leer Mas...</a>
+                      </p>
+               </div>
+         </li>
+ 
+    </ul>
+ </div>

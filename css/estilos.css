@@ -1,0 +1,130 @@
+body {
+    background:#f2b80d;;
+}
+
+div.menu {
+	font-size: 0.9em;
+    font-family: "Franklin Gothic Book",sans-serif;
+    position: relative;
+    width: 505px;
+    height: 220px;
+    margin: 10px auto;
+    padding-top: 5px;
+    background-color:#f2b80d;
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.35);
+    -moz-box-shadow: 0px -1px 0px rgba(255,255,255,0.35);
+    box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.35);
+}
+div.menu:after {
+    border-radius: 250px 250px 250px 250px / 5px 5px 5px 5px;
+    bottom: 0;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.35);
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: -20px;
+    width: 550px;
+
+}
+div.menu ul {
+    background: none repeat scroll 0 0 #000000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    height: 209px;
+    margin: auto;
+    overflow: hidden;
+    padding: 3px;
+    width: 489px;
+    border-radius: 5px;
+    padding: 5px;
+}
+div.menu ul:before {
+
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    content: "Diseñosdesitioswebunad.com";
+    font-size: 1.6em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 90px;
+    width: 324px;
+}
+div.menu ul:hover:before {
+
+    color: black;
+}
+div.menu ul li div {
+
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    height: 208px;
+    width: 357px;
+	background: #BDC7D0;
+}
+div.menu ul li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 30px;
+    height: 209px;
+    margin-right: 3px;
+    list-style: none;
+    text-align: right;
+    font-size: 1.1em;
+    -webkit-transition: width 1s ease 0.15s;
+    -moz-transition: width 1s ease 0.15s;
+    -o-transition: width 1s ease 0.15s;
+}
+div.menu ul li:last-child {
+    margin-right: 0;
+}
+div.menu ul li a {
+
+    display: block;
+    position: absolute;
+    z-index: 20;
+    bottom: -30px;
+    left: 0px;
+    height: 30px;
+    width: 182px;
+    padding-right: 25px;
+    color: #999;
+    text-decoration: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 1px solid black;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.8);
+    -webkit-transform-origin: 0px 0px;
+    -moz-transform-origin: 0px 0px;
+    -o-transform-origin: 0px 0px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    background: #353B42;
+    background: -moz-linear-gradient(left,blue,#464D55);
+    background: -webkit-gradient(linear,left top,right top,from(#21272B),to(#464D55));
+}
+div.menu ul li:hover {
+    width: 357px;
+}
+div.menu ul li:hover a {
+	text-shadow: 1px 0 0 rgba(0, 0, 0, 0.25);
+	background: #006699;
+	color: white;
+}
+div.menu ul li h3 {
+    cursor: pointer;
+    border: medium none;
+    color: white;
+    font-size: 2.3em;
+    margin: 0;
+    padding: 10px 20px 0 20px;
+    text-shadow: 0 1px 0 white;
+}
+div.menu ul li p {
+    color: #006699;
+    font-size: 1.2em;
+    padding: 0 20px;
+}
